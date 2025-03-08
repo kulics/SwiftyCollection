@@ -19,6 +19,5 @@ let package = Package(
         .testTarget(
             name: "SwiftyCollectionTests",
             dependencies: ["SwiftyCollection"]),
-    ],
-    swiftLanguageVersions: [SwiftVersion.version("5.7")]
+    ]
 )
